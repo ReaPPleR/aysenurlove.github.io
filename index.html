@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayşenur'u Çok Seviyorum</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: pink;
+      overflow: hidden;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      overflow-x: hidden; /* sadece yatay kaymayı engelle */
+      overflow-y: auto;   /* dikey kaymayı aç */
+    }
+    h1 {
+      font-size: 3em;
+      color: red;
+      margin-top: 20px;
+      text-shadow: 2px 2px 5px white;
+    }
+    .photos {
+      margin: 20px;
+    }
+    .photos img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .heart {
+      position: fixed;
+      top: -10vh;
+      color: red;
+      font-size: 24px;
+      animation: fall linear infinite;
+    }
+    @keyframes fall {
+      to {
+        transform: translateY(110vh);
+      }
+    }
+    .counter {
+      font-size: 1.5em;
+      margin-top: 20px;
+      color: #b30000;
+      text-align: center;
+    }
+
+    .counter {
+      font-size: 1.5em;
+      margin-top: 20px;
+      color: #b30000;
+      text-align: center;
+      border: 3px solid #cc0066; /* daha koyu pembe çerçeve */
+      padding: 15px;             /* içerikle çerçeve arasında boşluk */
+      border-radius: 15px;       /* köşeleri yuvarlatma */
+      display: inline-block;     /* çerçeve sadece içerik kadar genişler */
+      background: #ffe6f2;       /* çok açık pembe arka plan (opsiyonel) */
+    }
+
+    .bottom-boxes {
+      display: flex;
+      justify-content: center;  /* kutuları ortalar */
+      gap: 20px;                /* aralarındaki boşluk */
+      margin: 40px 0;           /* üst-alt boşluk */
+    }
+
+    .box {
+      background-color: #cc0066;  /* koyu pembe */
+      color: white;
+      padding: 20px;
+      border-radius: 15px;
+      width: 200px;               /* sabit genişlik */
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+  </style>
+</head>
+<body>
+  <h1>AYŞENUR'U ÇOK SEVİYORUM ❤</h1>
+  
+  <div class="photos">
+    <!-- Fotoğraflarını buraya ekle -->
+    <img src="foto1.jpg" alt="Biz">
+    <img src="foto2.jpg" alt="Biz">
+    <img src="foto3.jpg" alt="Biz">
+    <img src="foto4.jpg" alt="Biz">
+    <img src="foto5.jpg" alt="Biz">
+    <img src="foto6.jpg" alt="Biz">
+    <img src="foto7.jpg" alt="Biz">
+    <img src="foto8.jpg" alt="Biz">
+  </div>
+
+  <div class="videos">
+   <video src="video1.mp4" autoplay loop muted playsinline width="300"></video>
+   <video src="video2.mp4" autoplay loop muted playsinline width="300"></video>
+   <video src="video3.mp4" autoplay loop muted playsinline width="300"></video>
+   <video src="video4.mp4" autoplay loop muted playsinline width="300"></video>
+  </div>
+
+
+  <div class="counter">
+    <p><strong>24 Nisan 2025</strong> tarihinden beri Ayşenur’u seviyorum 💖</p>
+    <p id="days"></p>
+  </div>
+
+  <!-- En alt kısma ekle -->
+  <div class="bottom-boxes">
+    <div class="box">Ben öyle süslü cümleleri becerebilirim doğrudur. 
+Ama bu süslü cümlelerin kaynağı'nın sen olduğunu düşünüyorum.🫠
+Gözlerin benim tüm dünyamı aydınlatacak kadar etkili ☺ üstüme kar yağsa bile, üşüyor olsam bile gözlerin içimi ısıtıyor.
+benim artık gökyüzünü seyretmeme gerek yok çünkü sen benim en iyi arkadaşım en iyi yoldaşım oldun tıpkı yıldızlar gibi. Gökyüzünü seyretmeme gerek yok  çünkü sen benim yanımda ay gibi parlıyorsun sevgilim. 
+Nasıl ki çiçekler her sabah güneşe doğru dönüyorlar, ben de sana doğru dönüyorum bitanem. Günaydın yavrumm ♥ 💕</div>
+    <div class="box">Aşkımm süslü cümleleri pek beceremem şuan içimden gelenleri yazıyorum seninle ilk görüştüğümüzde sevgili olacağımızı hiç sanmıyordum ne bileyim ortamcı biri gibi duruyodun araban vardı bana bakmaz bu çocuk gibi düşünüyordum iyi ki girdin hayatıma tekleyen kalbimi hızlandırdın tekrardan heyecanlandırdın. Aklımda sürekli seninle olduğum anıları döndürüyorum sürekli seni düşünüyorum iyi ki geldin sevgilim rabbim gözlerini gözlerimden uzağa koymasın seni çok seviyorummmmm nice birlikte doğum günlerimize bi'tanem iyi ki doğdun ❤‍🩹🫶🏻💗🤍🫀 🌸</div>
+    <div class="box">Sen benim kalbimin melodisi, ruhumun huzurusun. 🌹 Ne zaman gözlerine baksam tüm dünyam sessizleşiyor, sadece senin ışığın kalıyor. 🌙 Soğuk bir gecede bile kalbimi ısıtan tek şey senin sevgindir. Gökyüzüne bakmaya gerek duymuyorum, çünkü yanımda kocaman bir evren gibi parlayan sen varsın. ✨ Tıpkı güneşi görünce açan çiçekler gibi, ben de her sabah sana yöneliyorum sevgilim. Sen benim en güzel şarkım, en derin huzurum, en kıymetli yol arkadaşımsın. İyi Gecveler Tatlı Rüyalar aşkım 💕♥</div>
+  </div>
+
+
+  <script>
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.classList.add('heart');
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = (Math.random() * 3 + 2) + 's';
+      heart.innerText = '❤';
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 5000);
+    }
+    setInterval(createHeart, 300);
+
+    const startDate = new Date("2025-04-24");
+    const today = new Date();
+    const diffTime = Math.abs(today - startDate);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    document.getElementById('days').innerText = `${diffDays} gündür seni seviyorum ❤`;
+  </script>
+</body>
+</html>
